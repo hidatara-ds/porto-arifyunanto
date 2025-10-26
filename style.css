@@ -204,17 +204,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     color: #0d6efd;
     transition: all 0.3s ease;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.social-icon i {
+    font-size: 16px;
 }
 
 .social-icon:hover {
     background: #0d6efd;
     color: #ffffff;
     transform: translateY(-2px);
+}
+
+.social-icon:hover i {
+    color: #ffffff;
 }
 
 .hero-photo {
@@ -377,10 +386,66 @@ body {
     font-weight: 600;
 }
 
+/* Skills Section */
+.skills {
+    padding: 80px 0;
+    background: #11253d;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+}
+
+.skill-category {
+    background: #152b46;
+    border-radius: 16px;
+    padding: 32px;
+    border: 1px solid rgba(13, 110, 253, 0.1);
+    transition: all 0.3s ease;
+}
+
+.skill-category:hover {
+    border-color: rgba(13, 110, 253, 0.3);
+    transform: translateY(-4px);
+}
+
+.skill-category-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid rgba(13, 110, 253, 0.2);
+}
+
+.skill-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill-item {
+    background: rgba(13, 110, 253, 0.1);
+    color: #0d6efd;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid rgba(13, 110, 253, 0.2);
+    transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+    background: rgba(13, 110, 253, 0.2);
+    transform: translateY(-2px);
+}
+
 /* Projects Section */
 .projects {
     padding: 80px 0;
-    background: #11253d;
+    background: #0b1b2e;
 }
 
 .section-header {
@@ -502,7 +567,7 @@ body {
 /* Services Section */
 .services {
     padding: 80px 0;
-    background: #0b1b2e;
+    background: #11253d;
 }
 
 .services-grid {
@@ -530,6 +595,11 @@ body {
     font-size: 48px;
     margin-bottom: 20px;
     display: block;
+    color: #0d6efd;
+}
+
+.service-icon i {
+    font-size: 48px;
 }
 
 .service-title {
@@ -587,8 +657,23 @@ body {
     font-weight: 500;
 }
 
+.contact-item a {
+    color: #9daec7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #0d6efd;
+}
+
 .contact-icon {
     font-size: 20px;
+}
+
+.contact-icon i {
+    font-size: 20px;
+    color: #0d6efd;
 }
 
 .copyright {
