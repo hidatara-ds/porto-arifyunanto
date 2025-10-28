@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Business & Finance Analyst</title>
+    <title>Arif Yunanto — Data Analyst & Finance Consultant</title>
+    <meta name="description" content="Decision-ready dashboards and financial models for faster, better business decisions.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,8 +17,10 @@
         <div class="container">
             <div class="nav-content">
                 <div class="logo">
-                    <span class="logo-icon">A</span>
-                    <span class="logo-text">ARIF YUNANTO</span>
+                    <a href="#home" class="logo-link">
+                        <span class="logo-icon">A</span>
+                        <span class="logo-text">ARIF YUNANTO</span>
+                    </a>
                 </div>
                 <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
                     <span class="hamburger-line"></span>
@@ -25,13 +28,13 @@
                     <span class="hamburger-line"></span>
                 </button>
                 <nav class="nav-links" id="navLinks">
-                    <a href="#home" class="nav-link active">HOME</a>
-                    <a href="#about" class="nav-link">ABOUT ME</a>
-                    <a href="#skills" class="nav-link">SKILLS</a>
-                    <a href="#projects" class="nav-link">PROJECTS</a>
-                    <a href="#services" class="nav-link">SERVICES</a>
-                    <a href="#contact" class="nav-link">CONTACT</a>
-                    <a href="#contact" class="btn-primary nav-cta">LET'S TALK</a>
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#contact" class="btn-primary nav-cta">Get in touch</a>
                 </nav>
             </div>
         </div>
@@ -40,55 +43,54 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="hero-content">
-                        <div class="hero-label">DATA ANALYST & FINANCE CONSULTANT</div>
-                        <h1 class="hero-title">
-                            <span class="text-white">HAY! I'M ARIF</span><br>
-                            <span class="text-accent">DATA ANALYST & EXCEL SPECIALIST</span>
-                        </h1>
-                        <p class="hero-description">
-                            S1 Manajemen lulusan UKSW dengan spesialisasi pengolahan data, analisis keuangan, dan Excel advanced. Saya ahli dalam mengubah data mentah menjadi visualisasi yang optimal untuk keputusan bisnis yang lebih baik.
-                        </p>
-                        <div class="hero-actions">
-                            <a href="#contact" class="btn-primary btn-large">GET IN TOUCH →</a>
-                            <div class="social-icons">
-                                <a href="https://www.linkedin.com/in/arifyunanto" class="social-icon" target="_blank" title="LinkedIn">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="mailto:arifyunanto236@gmail.com" class="social-icon" title="Email">
-                                    <i class="far fa-envelope"></i>
-                                </a>
-                                <a href="tel:089687940623" class="social-icon" title="Telephone">
-                                    <i class="fas fa-phone"></i>
-                                </a>
-                            </div>
-                        </div>
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <p class="hero-label">DATA ANALYST & FINANCE CONSULTANT</p>
+                    <h1 class="hero-title">Hey, I'm Arif — Data Analyst & Finance Consultant</h1>
+                    <p class="hero-description">
+                        I build decision-ready dashboards and financial models that speed up business decisions for SMEs and corporate teams.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn-primary btn-large">Get in touch</a>
+                        <a href="#projects" class="btn-ghost btn-large">View projects</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/arifyunanto" class="social-icon" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:arifyunanto236@gmail.com" class="social-icon" title="Email" aria-label="Email">
+                            <i class="far fa-envelope"></i>
+                        </a>
+                        <a href="tel:089687940623" class="social-icon" title="Phone" aria-label="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="hero-photo">
-                        <div class="photo-card">
-                            <img src="image/profile-photo.jpg" alt="Arif Yunanto Photo" class="photo-img">
-                        </div>
-                        <div class="decoration-circle circle-1"></div>
-                        <div class="decoration-circle circle-2"></div>
+                <div class="hero-photo">
+                    <div class="photo-card">
+                        <img src="image/profile-photo.jpg" alt="Arif Yunanto - Data Analyst Photo" class="photo-img" loading="eager" width="300" height="400">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Trusted By Section -->
-    <section class="trusted-by">
+    <!-- Stats Section -->
+    <section class="stats">
         <div class="container">
-            <div class="trusted-content">
-                <div class="trusted-logo">Excel Specialist</div>
-                <div class="trusted-logo">Data Analyst</div>
-                <div class="trusted-logo">Financial Modeling</div>
-                <div class="trusted-logo">Power BI</div>
-                <div class="trusted-logo">Consultant</div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">1+ yrs</div>
+                    <div class="stat-label">Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Mentees</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Certifications</div>
+                </div>
             </div>
         </div>
     </section>
@@ -96,40 +98,22 @@
     <!-- About Me Section -->
     <section id="about" class="about">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="about-photo">
-                        <div class="photo-card">
-                            <img src="image/profile-photo.jpg" alt="Arif Yunanto Photo" class="photo-img">
-                        </div>
-                        <div class="decoration-radial"></div>
+            <div class="about-grid">
+                <div class="about-photo">
+                    <div class="photo-card">
+                        <img src="image/profile-photo.jpg" alt="Arif Yunanto working as data analyst" class="photo-img" loading="lazy" width="400" height="500">
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="about-content">
-                        <div class="section-label">ABOUT ME</div>
-                        <h2 class="section-title">
-                            EKSPERI DALAM <span class="text-accent">DATA ANALYSIS & FINANCIAL MODELING</span>
-                        </h2>
-                        <p class="about-description">
-                            Lulusan S1 Manajemen UKSW dengan IPK 3,64, spesialisasi pengolahan data dan analisis keuangan. Menguasai Excel advanced (fungsi, pivot table, dashboard), SPSS, Eviews, Smart PLS, SQL, Power BI, dan Google Data Studio. Pernah menjadi asisten dosen selama 1+ tahun dan trainer spreadsheet dengan pengalaman mengelola stok, optimasi proses bisnis, dan visualisasi data untuk keputusan strategis.
-                        </p>
-                        <div class="stats-grid">
-                            <div class="stat-card">
-                                <div class="stat-number">1+</div>
-                                <div class="stat-label">Tahun Pengalaman</div>
-                            </div>
-                            <div class="stat-card">
-                                <div class="stat-number">100+</div>
-                                <div class="stat-label">Mahasiswa Terbimbing</div>
-                            </div>
-                            <div class="stat-card">
-                                <div class="stat-number">3</div>
-                                <div class="stat-label">Sertifikat Kompetensi</div>
-                            </div>
-                        </div>
-                        <a href="#contact" class="btn-primary">GET IN TOUCH →</a>
-                    </div>
+                <div class="about-content">
+                    <div class="section-label">ABOUT ME</div>
+                    <h2 class="section-title">Expertise in Data Analysis & Financial Modeling</h2>
+                    <p class="about-description">
+                        B.Sc. in Management (GPA 3.64). Focused on analytics and finance using Advanced Excel, SPSS, EViews, SmartPLS, SQL, and BI tools. I translate raw data into clear insights for faster, better decisions.
+                    </p>
+                    <p class="about-description">
+                        Former teaching assistant (1+ year) and Excel trainer. Specialized in inventory management, business process optimization, and executive-ready data visualization.
+                    </p>
+                    <a href="#contact" class="btn-primary">Get in touch →</a>
                 </div>
             </div>
         </div>
@@ -139,208 +123,134 @@
     <section id="skills" class="skills">
         <div class="container">
             <div class="section-header">
-                <div class="section-label">KEAHLIAN</div>
-                <h2 class="section-title">KOMPETENSI TEKNIS</h2>
+                <div class="section-label">SKILLS</div>
+                <h2 class="section-title">Skills & Tools</h2>
             </div>
             
-            <!-- Skills Content Wrapper -->
-            <div class="skills-wrapper">
-                <!-- Row 1: Pendidikan + Soft Skill -->
-                <div class="skills-row">
-                    <div class="skills-col">
-                        <div class="skills-section-header">
-                            <div class="skills-icon-circle">
-                                <i class="fas fa-graduation-cap"></i>
-                            </div>
-                            <h3 class="skills-section-title">Pendidikan</h3>
-                        </div>
-                        <p class="skills-period">2020 - Sekarang</p>
-                        <p class="skills-desc">S1 Manajemen — fokus pada analisis keuangan, pengolahan data bisnis, dan pelaporan kinerja.</p>
+            <div class="skills-cluster-grid">
+                <!-- Cluster 1: Spreadsheet -->
+                <div class="skill-cluster">
+                    <div class="cluster-header">
+                        <img src="assets/skills/excel.png" alt="Excel icon" class="cluster-icon" width="24" height="24" onerror="this.style.display='none'">
+                        <h3 class="cluster-title">Spreadsheet</h3>
                     </div>
-                    
-                    <div class="skills-divider-vertical"></div>
-                    
-                    <div class="skills-col">
-                        <div class="skills-section-header">
-                            <div class="skills-icon-circle">
-                                <i class="fas fa-users"></i>
-                            </div>
-                            <h3 class="skills-section-title">Soft Skill</h3>
-                        </div>
-                        <ul class="skills-list">
-                            <li>Kerja Tim</li>
-                            <li>Komunikasi</li>
-                            <li>Berpikir Kritis</li>
-                            <li>Manajemen Waktu</li>
-                        </ul>
+                    <div class="skill-chips">
+                        <span class="skill-chip">Excel Advanced</span>
+                        <span class="skill-chip">Pivot Tables</span>
+                        <span class="skill-chip">Dashboards</span>
+                        <span class="skill-chip">VLOOKUP/HLOOKUP</span>
                     </div>
                 </div>
-                
-                <!-- Row 2: Keahlian Teknis -->
-                <div class="skills-row">
-                    <div class="skills-col skills-col-full">
-                        <div class="skills-section-header">
-                            <div class="skills-icon-circle">
-                                <i class="fas fa-code"></i>
-                            </div>
-                            <h3 class="skills-section-title">Keahlian Teknis</h3>
-                        </div>
-                        <p class="skills-subtitle">Software dan alat kerja utama untuk analisis data, pelaporan, dan visualisasi bisnis.</p>
-                        <div class="tech-skills-grid">
-                            <div class="tech-skill-pill">
-                                <img src="assets/skills/excel.png" alt="Microsoft Excel" class="tech-icon-img">
-                                <div class="tech-pill-content">
-                                    <h4 class="tech-pill-name">Microsoft Excel</h4>
-                                    <p class="tech-pill-sub">Pivot Table, Dashboard, Formula Lanjutan</p>
-                                </div>
-                            </div>
-                            <div class="tech-skill-pill">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" class="tech-icon-img">
-                                <div class="tech-pill-content">
-                                    <h4 class="tech-pill-name">Power BI</h4>
-                                    <p class="tech-pill-sub">Dashboard Interaktif, KPI Monitoring</p>
-                                </div>
-                            </div>
-                            <div class="tech-skill-pill">
-                                <img src="assets/skills/spss.png" alt="SPSS" class="tech-icon-img">
-                                <div class="tech-pill-content">
-                                    <h4 class="tech-pill-name">SPSS</h4>
-                                    <p class="tech-pill-sub">Uji Hipotesis, Analisis Statistik</p>
-                                </div>
-                            </div>
-                            <div class="tech-skill-pill">
-                                <img src="assets/skills/smartpls.png" alt="Smart PLS" class="tech-icon-img">
-                                <div class="tech-pill-content">
-                                    <h4 class="tech-pill-name">Smart PLS</h4>
-                                    <p class="tech-pill-sub">Model SEM-PLS, Analisis Struktural</p>
-                                </div>
-                            </div>
-                            <div class="tech-skill-pill">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL Database" class="tech-icon-img">
-                                <div class="tech-pill-content">
-                                    <h4 class="tech-pill-name">SQL / Database</h4>
-                                    <p class="tech-pill-sub">Query Data, Join & Aggregasi</p>
-                                </div>
-                            </div>
-                            <div class="tech-skill-pill">
-                                <img src="assets/skills/gdatastudio.png" alt="Google Data Studio" class="tech-icon-img">
-                                <div class="tech-pill-content">
-                                    <h4 class="tech-pill-name">Google Data Studio</h4>
-                                    <p class="tech-pill-sub">Laporan Otomatis, Visualisasi Klien</p>
-                                </div>
-                            </div>
-                        </div>
+
+                <!-- Cluster 2: Analysis -->
+                <div class="skill-cluster">
+                    <div class="cluster-header">
+                        <img src="assets/skills/spss.png" alt="SPSS icon" class="cluster-icon" width="24" height="24" onerror="this.style.display='none'">
+                        <h3 class="cluster-title">Analysis</h3>
+                    </div>
+                    <div class="skill-chips">
+                        <span class="skill-chip">SPSS</span>
+                        <span class="skill-chip">EViews</span>
+                        <span class="skill-chip">SmartPLS</span>
+                        <span class="skill-chip">SQL</span>
                     </div>
                 </div>
-                
-                <!-- Row 3: Skill Set (left) | Minat + Bahasa (right) -->
-                <div class="skills-row">
-                    <div class="skills-col">
-                        <!-- Skill Set -->
-                        <div class="skills-section-header">
-                            <div class="skills-icon-circle">
-                                <i class="fas fa-tools"></i>
-                            </div>
-                            <h3 class="skills-section-title">Skill Set</h3>
-                        </div>
-                        <ul class="skills-list">
-                            <li>Pembersihan Data</li>
-                            <li>Visualisasi Data</li>
-                            <li>Forecast Bisnis</li>
-                            <li>Financial Modeling</li>
-                            <li>Penyusunan Laporan</li>
-                            <li>Dashboard Eksekutif</li>
-                        </ul>
+
+                <!-- Cluster 3: Visualization -->
+                <div class="skill-cluster">
+                    <div class="cluster-header">
+                        <img src="assets/skills/gdatastudio.png" alt="Data Studio icon" class="cluster-icon" width="24" height="24" onerror="this.style.display='none'">
+                        <h3 class="cluster-title">Visualization</h3>
                     </div>
-                    
-                    <div class="skills-divider-vertical"></div>
-                    
-                    <div class="skills-col">
-                        <!-- Minat -->
-                        <div class="skills-section-group">
-                            <div class="skills-section-header">
-                                <div class="skills-icon-circle">
-                                    <i class="fas fa-lightbulb"></i>
-                                </div>
-                                <h3 class="skills-section-title">Minat</h3>
-                            </div>
-                            <ul class="skills-list">
-                                <li>Efisiensi Operasional</li>
-                                <li>Business Intelligence</li>
-                                <li>Automasi Laporan & Dashboard</li>
-                            </ul>
-                        </div>
-                        
-                        <!-- Bahasa -->
-                        <div class="skills-section-group">
-                            <div class="skills-section-header">
-                                <div class="skills-icon-circle">
-                                    <i class="fas fa-language"></i>
-                                </div>
-                                <h3 class="skills-section-title">Bahasa</h3>
-                            </div>
-                            <ul class="skills-list">
-                                <li>Bahasa Indonesia (Aktif)</li>
-                                <li>Inggris (Menengah)</li>
-                            </ul>
-                        </div>
+                    <div class="skill-chips">
+                        <span class="skill-chip">Power BI</span>
+                        <span class="skill-chip">Google Data Studio</span>
+                        <span class="skill-chip">Excel Charts</span>
+                        <span class="skill-chip">Custom Dashboards</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Recent Projects Section -->
+    <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
             <div class="section-header">
-                <div class="section-label">MY WORK</div>
-                <h2 class="section-title">RECENT PROJECT</h2>
+                <div class="section-label">PORTFOLIO</div>
+                <h2 class="section-title">Selected Case Studies</h2>
             </div>
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-thumbnail">
                         <div class="thumbnail-content">
-                            <div class="thumbnail-title">Invensi & Dashboard</div>
-                            <div class="thumbnail-subtitle">Stok Management System</div>
+                            <div class="thumbnail-icon"><i class="fas fa-boxes"></i></div>
+                            <div class="thumbnail-title">Inventory Dashboard</div>
+                            <div class="thumbnail-subtitle">PT Tri Medika</div>
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3 class="project-title">Dashboard Inventory & Purchase System - PT Tri Medika</h3>
-                        <p class="project-role">Excel Dashboard, Stock Monitoring, Price Analysis & Purchase Optimization</p>
-                        <button class="project-btn">→</button>
+                        <h3 class="project-title">Inventory & Purchase Management Dashboard</h3>
+                        <ul class="project-impact">
+                            <li>Reduced reporting time by 15%</li>
+                            <li>Improved stock accuracy by 10%</li>
+                            <li>Real-time price monitoring</li>
+                        </ul>
+                        <div class="project-stack">
+                            <span class="stack-chip">Excel</span>
+                            <span class="stack-chip">Power BI</span>
+                            <span class="stack-chip">SQL</span>
+                        </div>
+                        <a href="#" class="project-link">View case study →</a>
                     </div>
                 </div>
+
                 <div class="project-card">
                     <div class="project-thumbnail">
                         <div class="thumbnail-content">
-                            <div class="thumbnail-title">Spreadsheet Training</div>
-                            <div class="thumbnail-subtitle">Excel Advanced Course</div>
+                            <div class="thumbnail-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                            <div class="thumbnail-title">Excel Training</div>
+                            <div class="thumbnail-subtitle">UKSW Program</div>
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3 class="project-title">Trainer Pelatihan Spreadsheet - UKSW</h3>
-                        <p class="project-role">Training Materi: IF, Lookup, Pivot Table, Chart, Conditional Formatting</p>
-                        <button class="project-btn">→</button>
+                        <h3 class="project-title">Spreadsheet Training Program</h3>
+                        <ul class="project-impact">
+                            <li>Trained 100+ students in Excel</li>
+                            <li>Advanced functions & dashboards</li>
+                            <li>Practical business scenarios</li>
+                        </ul>
+                        <div class="project-stack">
+                            <span class="stack-chip">Excel</span>
+                            <span class="stack-chip">Training</span>
+                        </div>
+                        <a href="#" class="project-link">View case study →</a>
                     </div>
                 </div>
+
                 <div class="project-card">
                     <div class="project-thumbnail">
                         <div class="thumbnail-content">
-                            <div class="thumbnail-title">Research Thesis</div>
-                            <div class="thumbnail-subtitle">Financial Analysis</div>
+                            <div class="thumbnail-icon"><i class="fas fa-chart-line"></i></div>
+                            <div class="thumbnail-title">Research Analysis</div>
+                            <div class="thumbnail-subtitle">Dynamic Correlation Study</div>
                         </div>
                     </div>
                     <div class="project-info">
                         <h3 class="project-title">Dynamic Correlation Analysis - CPO, Coal & ASEAN Market</h3>
-                        <p class="project-role">Data Analysis using SPSS & Eviews, Statistical Modeling, COVID-19 Impact Study</p>
-                        <button class="project-btn">→</button>
+                        <ul class="project-impact">
+                            <li>Statistical modeling with SPSS</li>
+                            <li>Time series analysis with EViews</li>
+                            <li>COVID-19 impact assessment</li>
+                        </ul>
+                        <div class="project-stack">
+                            <span class="stack-chip">SPSS</span>
+                            <span class="stack-chip">EViews</span>
+                            <span class="stack-chip">Research</span>
+                        </div>
+                        <a href="#" class="project-link">View case study →</a>
                     </div>
                 </div>
-            </div>
-            <div class="pagination-dots">
-                <span class="dot active"></span>
-                <span class="dot"></span>
             </div>
         </div>
     </section>
@@ -350,56 +260,142 @@
         <div class="container">
             <div class="section-header">
                 <div class="section-label">SERVICES</div>
-                <h2 class="section-title">BUSINESS SERVICES I PROVIDE</h2>
+                <h2 class="section-title">What I Offer</h2>
             </div>
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-chart-line"></i></div>
-                    <h3 class="service-title">Excel Advanced & Dashboard</h3>
-                    <p class="service-description">Pengolahan data, pembuatan dashboard dinamis, Pivot Table, dan fungsi-fungsi Excel advanced untuk analisis data yang efisien.</p>
+                    <div class="service-icon"><i class="fas fa-table"></i></div>
+                    <h3 class="service-title">Excel Advanced & Dashboards</h3>
+                    <ul class="service-outcomes">
+                        <li>Automation & Pivot</li>
+                        <li>Executive-ready dashboards</li>
+                        <li>Clean data pipelines</li>
+                    </ul>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-chart-bar"></i></div>
+                    <div class="service-icon"><i class="fas fa-chart-pie"></i></div>
                     <h3 class="service-title">Data Analysis & Visualization</h3>
-                    <p class="service-description">Mengubah data mentah menjadi visualisasi yang optimal menggunakan Power BI, Google Data Studio, SPSS, dan Eviews.</p>
+                    <ul class="service-outcomes">
+                        <li>Forecasting & trends</li>
+                        <li>KPI tracking</li>
+                        <li>Clear, actionable insights</li>
+                    </ul>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="service-icon"><i class="fas fa-handshake"></i></div>
                     <h3 class="service-title">Training & Consultation</h3>
-                    <p class="service-description">Pelatihan spreadsheet untuk tim, konsultasi pengelolaan stok, optimasi proses bisnis, dan analisis keuangan.</p>
+                    <ul class="service-outcomes">
+                        <li>Tailored syllabus</li>
+                        <li>Hands-on sessions</li>
+                        <li>From basics to advanced</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <footer id="contact" class="contact">
+    <section id="contact" class="contact">
         <div class="container">
-            <div class="contact-content">
-                <h2 class="contact-title">Contact</h2>
-                <h3 class="contact-subtitle">Let's work together</h3>
+            <div class="section-header">
+                <div class="section-label">CONTACT</div>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Tell me about your goals and timelines.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name <span>*</span></label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email <span>*</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company (optional)</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message <span>*</span></label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-large">Send inquiry</button>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+                
                 <div class="contact-info">
                     <div class="contact-item">
-                        <span class="contact-icon"><i class="far fa-envelope"></i></span>
-                        <a href="mailto:arifyunanto236@gmail.com" class="contact-text">arifyunanto236@gmail.com</a>
+                        <div class="contact-icon"><i class="far fa-envelope"></i></div>
+                        <div>
+                            <div class="contact-label">Email</div>
+                            <a href="mailto:arifyunanto236@gmail.com" class="contact-link">arifyunanto236@gmail.com</a>
+                        </div>
                     </div>
                     <div class="contact-item">
-                        <span class="contact-icon"><i class="fas fa-phone-alt"></i></span>
-                        <a href="tel:089687940623" class="contact-text">089687940623</a>
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <div class="contact-label">Phone</div>
+                            <a href="tel:089687940623" class="contact-link">+62 896 8794 0623</a>
+                        </div>
                     </div>
                     <div class="contact-item">
-                        <span class="contact-icon"><i class="fab fa-linkedin-in"></i></span>
-                        <a href="https://www.linkedin.com/in/arifyunanto" target="_blank" class="contact-text">LinkedIn Profile</a>
+                        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div>
+                            <div class="contact-label">WhatsApp</div>
+                            <a href="https://wa.me/6289687940623" target="_blank" class="contact-link">Chat on WhatsApp</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+                        <div>
+                            <div class="contact-label">LinkedIn</div>
+                            <a href="https://www.linkedin.com/in/arifyunanto" target="_blank" class="contact-link">Connect on LinkedIn</a>
+                        </div>
                     </div>
                 </div>
-                <div class="copyright">
-                    <p>&copy; 2024 Arif Yunanto. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-nav">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
                 </div>
+                <div class="footer-social">
+                    <h4 class="footer-title">Connect</h4>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/arifyunanto" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:arifyunanto236@gmail.com" aria-label="Email">
+                            <i class="far fa-envelope"></i>
+                        </a>
+                        <a href="https://wa.me/6289687940623" target="_blank" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Arif Yunanto. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Mobile Menu JavaScript -->
+    <!-- JavaScript -->
     <script>
         // Mobile Menu Toggle
         const mobileMenuToggle = document.getElementById('mobileMenuToggle');
@@ -434,13 +430,80 @@
             }
         });
 
-        // Close menu on window resize to desktop
+        // Close menu on window resize
         window.addEventListener('resize', function() {
             if (window.innerWidth > 768) {
                 navLinks.classList.remove('active');
                 mobileMenuToggle.classList.remove('active');
                 body.classList.remove('menu-open');
             }
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Nav active state on scroll
+        const sections = document.querySelectorAll('section[id]');
+        const navLinksArray = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinksArray.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Contact Form Handling
+        const contactForm = document.getElementById('contactForm');
+        const formMessage = document.getElementById('formMessage');
+
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(contactForm);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const company = formData.get('company');
+            const message = formData.get('message');
+            
+            // Create mailto link
+            const subject = `Contact from ${name}`;
+            const body = `Name: ${name}\nEmail: ${email}\nCompany: ${company || 'N/A'}\n\nMessage:\n${message}`;
+            const mailtoLink = `mailto:arifyunanto236@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            
+            // Show success message
+            formMessage.innerHTML = '✓ Thank you! Opening email client...';
+            formMessage.classList.add('success');
+            
+            // Open email client
+            window.location.href = mailtoLink;
+            
+            // Reset form after a delay
+            setTimeout(() => {
+                contactForm.reset();
+                formMessage.innerHTML = '';
+                formMessage.classList.remove('success');
+            }, 3000);
         });
     </script>
 </body>
